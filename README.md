@@ -11,13 +11,21 @@ This is a React-based AI Research Assistant that allows users to input research 
 ✅ Organizes sources and generates an informative response
 ✅ Maintains a history of completed research sessions
 
-🧠 Core Concepts :
-  Component	                        Purpose
-ResearchContext	       Provides global state management for research sessions
-ResearchForm	         UI component to input and submit research queries
-conductResearch        Simulates research agent steps and fetches sources
-draftAnswer	           Simulates drafting agent to synthesize an answer
-simulateAgentSteps	   Mocks agent-like thinking by stepping through phases
+<details> <summary>Click to expand</summary>
+md
+Copy
+Edit
+### 🧠 Core Components
+
+| **Component**                 | **Description**                                                                 |
+|------------------------------|---------------------------------------------------------------------------------|
+| `ResearchContext.tsx`        | Global context that manages all research state, including agents and history.  |
+| `ResearchForm.tsx`           | User interface to input and submit a research query.                           |
+| `researchService.tsx`        | Simulates the research process and fetches sources from the Tavily API.        |
+| `draftingService.tsx`        | Simulates the drafting of an answer based on research findings.                |
+| `tavilyService.tsx`          | Handles communication with the Tavily API and simulates agent step logic.      |
+| `types.ts`                   | Shared TypeScript types for agents, research items, and sources.               |
+</details>
 
 🔌 External Dependency:
 Tavily API: Used for searching relevant web content
