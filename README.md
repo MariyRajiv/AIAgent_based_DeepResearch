@@ -12,10 +12,7 @@ This is a React-based AI Research Assistant that allows users to input research 
 ✅ Maintains a history of completed research sessions
 
 <details> <summary>Click to expand</summary>
-md
-Copy
-Edit
-### 🧠 Core Components
+🧠 Core Components
 
 | **Component**                 | **Description**                                                                 |
 |------------------------------|---------------------------------------------------------------------------------|
