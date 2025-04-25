@@ -1,5 +1,9 @@
 # AIAgent_based_DeepResearch
 
+
+▶️ [Watch the Loom video](https://www.loom.com/share/b8630ea6984847d1834b332d9d7a5af8?sid=0a7456a7-3d71-4252-bc26-184fc74df9a5)
+
+
 📚 Project Documentation: AI Agent Based Deep Research
 🔍 Overview:
 This is a React-based AI Research Assistant that allows users to input research queries and receive synthesized answers. It simulates an intelligent research process using asynchronous agent steps, integrates with the Tavily Search API, and generates structured answers using simulated drafting logic.
